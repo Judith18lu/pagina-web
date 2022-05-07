@@ -1,0 +1,42 @@
+<doctype html>
+<html>
+    <head>
+        <style>
+            p{
+                color:palevioletred;
+                font-style: italic;
+            }
+        </style>
+        <title> Formulario Rocio</title>
+        <meta charset="utf-8">
+    </head>
+    <body> <b>
+        <h1> INSCRIPCIONES "ESCUELA TECNICA N7"</h1>
+        <form name="Inscripcion" action="#" method="get">
+            Ingrese su nombre:
+            <input type="text" name="nombre_alu" size="35">
+            <br></br>
+            Ingrese edad:
+            <input type="number" name="edad_alumno" min="11" max="25">
+            <br></br>
+            Seleccione su division:<br>
+            "A"<input type="radio" name="div" value="A"><br>
+            "B"<input type="radio" name="div" value="B" checked><br>
+            "C"<input type="radio" name="div" value="C"><br>
+            <br><br>
+            Seleccione deporte:
+            <br>
+            Voley<input type="checkbox" name="deporte" value="voley"><br>
+            Futbol<input type="checkbox" name="deporte" value="futbol"><br>
+            Basquet<input type="checkbox" name="deporte" value="basquet"><br>
+            <br>
+                      Ingrese su direccion de facebook:
+            <input type="url" name="url_alu">
+            <br>
+            Ingrese su correo:
+            <input type="email" name="correo_alumno">
+            <br><input type="subnit" value="Grabar">
+            <br><input type="reset" value="Borrar">
+        </form>
+    </body>
+</html>
